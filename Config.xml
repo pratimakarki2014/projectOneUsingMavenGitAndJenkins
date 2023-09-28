@@ -8,4 +8,12 @@
 			<parameter name="browser" value="chrome"/>
 		</classes>
 	</test>
+	
+		<test name="myTest2">
+		<classes>
+			<class name="mavenTestWithJenkins.projectOneUsingMavenGitAndJenkins.testNgRegisterValidation"/>
+			<parameter name="url" value="http://eaapp.somee.com/Account/Register"/>
+			<parameter name="browser" value="chrome"/>
+		</classes>
+	</test>
 </suite>
