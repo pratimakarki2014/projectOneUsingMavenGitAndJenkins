@@ -56,6 +56,7 @@ public class TestNgLoginValidation {
 
   @AfterTest
   public void afterTest() {
+	  // all done
 	  driver.close();
   }
 
